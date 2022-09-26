@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./css/style.css";
+// import FocusApp from "./FocusApp";
+// import CopiApp from "./CopiApp";
+// import Media from "./Media";
+// import Scroll from "./Scroll";
+// import Render from "./Render";
+import Api from "./Api";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+  
+        {/* <FocusApp /> */}
+        {/* <CopiApp/> */}
+        {/* <Media /> */}
+        {/* <Scroll /> */}
+        {/* <Render /> */}
+        <Api />
+
+    </section>
   );
-}
+};
 
 export default App;

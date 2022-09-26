@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-opt button{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    cursor: pointer;
+    outline: none;
+}

@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+Scroll.jsx
+Media.jsx
+Render.jsx
+CopiApp.js
+FocusApp.js

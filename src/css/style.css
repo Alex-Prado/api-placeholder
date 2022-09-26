@@ -1,0 +1,15 @@
+@import url('./components/Card.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: min(96%, 1200px);
+  margin: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
